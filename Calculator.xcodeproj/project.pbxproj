@@ -12,6 +12,7 @@
 		08AAF6D82044759700F6565C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAF6D62044759700F6565C /* Main.storyboard */; };
 		08AAF6DA2044759700F6565C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AAF6D92044759700F6565C /* Assets.xcassets */; };
 		08AAF6DD2044759700F6565C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAF6DB2044759700F6565C /* LaunchScreen.storyboard */; };
+		08AAF6E52044764200F6565C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAF6E42044764200F6565C /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		08AAF6D92044759700F6565C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AAF6DC2044759700F6565C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08AAF6DE2044759700F6565C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AAF6E42044764200F6565C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		08AAF6D12044759700F6565C /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				08AAF6D22044759700F6565C /* AppDelegate.swift */,
-				08AAF6D42044759700F6565C /* ViewController.swift */,
-				08AAF6D62044759700F6565C /* Main.storyboard */,
-				08AAF6D92044759700F6565C /* Assets.xcassets */,
-				08AAF6DB2044759700F6565C /* LaunchScreen.storyboard */,
-				08AAF6DE2044759700F6565C /* Info.plist */,
+				08AAF6E920448F5600F6565C /* Sources */,
+				08AAF6E820448F5000F6565C /* View Controllers */,
+				08AAF6E720448F4800F6565C /* Storyboards */,
+				08AAF6E620448F3D00F6565C /* Resources */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		08AAF6E620448F3D00F6565C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08AAF6D92044759700F6565C /* Assets.xcassets */,
+				08AAF6DE2044759700F6565C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08AAF6E720448F4800F6565C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				08AAF6D62044759700F6565C /* Main.storyboard */,
+				08AAF6DB2044759700F6565C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		08AAF6E820448F5000F6565C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08AAF6D42044759700F6565C /* ViewController.swift */,
+				08AAF6E42044764200F6565C /* RoundButton.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		08AAF6E920448F5600F6565C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				08AAF6D22044759700F6565C /* AppDelegate.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AAF6E52044764200F6565C /* RoundButton.swift in Sources */,
 				08AAF6D52044759700F6565C /* ViewController.swift in Sources */,
 				08AAF6D32044759700F6565C /* AppDelegate.swift in Sources */,
 			);
@@ -276,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXRBZV7C7B;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ACreations.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXRBZV7C7B;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ACreations.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
