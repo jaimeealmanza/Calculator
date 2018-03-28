@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CalculatorViewController.swift
 //  Calculator
 //
 //  Created by Jaime Almanza on 26/02/18.
@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class CalculatorViewController: UIViewController {
     
     
     // MARK: - Outlets and Actions
