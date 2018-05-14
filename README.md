@@ -1,3 +1,3 @@
 # Calculator
 
-#### Calculator made following tutorial
+#### Apple's calculator mock-up made following tutorial
